@@ -1,0 +1,11 @@
+$fontFamily: 'Roboto, sans-serif';
+$baseGutter: 6;
+$canvasColor: #303030;
+$textColor: lighten($canvasColor, 75%);
+
+body {
+	margin: 0;
+    padding: 6px;
+	background-color: darken($canvasColor, 10%);
+	color: $textColor;
+}
