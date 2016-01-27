@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import { applyMiddleware, compose, createStore, combineReducers } from 'redux';
 import { hashHistory } from 'react-router';
 import promiseMiddleware from 'redux-promise-middleware';
-import { syncHistory, routeReducer } from 'redux-simple-router';
+import { syncHistory, routeReducer } from 'react-router-redux';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 // react components
